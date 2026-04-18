@@ -10,6 +10,24 @@ and carbon emissions  have affected maize yield in Eswatini over a 30-year perio
 (1993–2023). The analysis combines statistical methods, machine learning, and 
 interactive visualizations to uncover meaningful patterns and forecast future yield trends.
 
+## 🌍 Background & Context
+Maize (*Zea mays*) is the staple food crop of Eswatini, forming the foundation 
+of both household food security and the national agricultural economy. The majority 
+of maize production in Eswatini is carried out by **smallholder farmers** who depend 
+almost entirely on **rain-fed agriculture**, with minimal access to irrigation 
+infrastructure.
+
+This heavy dependence on rainfall makes Eswatini's maize sector extremely 
+vulnerable to climate variability. Rising temperatures, erratic rainfall patterns, 
+and prolonged droughts — increasingly linked to climate change — pose a serious 
+threat to yields and by extension, the food security of the population.
+
+The **2015/2016 El Niño drought** serves as a stark example, pushing maize yield 
+to its lowest recorded level of **0.73 t/ha** in 2016 — well below the national 
+average. Understanding how climate variables drive yield variation is therefore 
+not just an academic exercise but a **critical policy and planning need** for 
+Eswatini's agricultural sector.
+
 ---
 
 ## 🎯 Objectives
@@ -66,6 +84,14 @@ interactive visualizations to uncover meaningful patterns and forecast future yi
 6. **Feature Importance** — identified which climate variable drives yield most
 7. **Forecasting** — projected yield through 2031 using historical climate trends
 
+## 📸 Project Visuals
+
+### Maize & Climate Trends
+![Trend Plots](visuals/trend_plots.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](visuals/correlation_heatmap.png)
+
 ---
 
 ## 🔑 Key Findings
@@ -104,6 +130,37 @@ interactive visualizations to uncover meaningful patterns and forecast future yi
 > ⚠️ Forecasts assume historical climate trends continue. Uncertainty increases beyond 2028.
 
 ---
+## 📖 The Story This Data Tells
+Over 30 years, Eswatini's maize sector has faced a quietly worsening climate 
+reality. Temperatures rose from **19.5°C in 1993 to over 23°C by 2023**, while 
+rainfall has swung erratically between **427mm and 1031mm** across the same period.
+
+The data tells a clear story:
+
+> **When it rains well, Eswatini's smallholder farmers produce.**
+> **When it doesn't, the country goes hungry.**
+
+The best year on record was **1996 with a yield of 2.21 t/ha**, coinciding with 
+one of the highest rainfall years of **1031mm** — nearly double the worst recorded 
+rainfall. By contrast, **2016 recorded the lowest yield of just 0.73 t/ha**, 
+driven by the devastating El Niño drought that slashed rainfall and pushed 
+temperatures to extreme levels — leaving smallholder farmers with less than 
+a third of the best harvest ever recorded.
+
+The decade averages tell an equally concerning story — average yields have 
+remained stubbornly low at around **1.35 t/ha**, well below the African 
+average of 2 t/ha, reflecting the compounding pressure of rising temperatures 
+and unreliable rainfall on rain-fed smallholder agriculture.
+
+Looking ahead, the forecast is cautious but concerning. If current climate 
+trends continue — temperatures projected to reach **20.93°C by 2031** with 
+gradually stabilising rainfall — maize yield is projected to **decline from 
+1.33 t/ha in 2024 to 1.32 t/ha by 2031.** While the decline appears gradual, 
+for smallholder farmers already operating at subsistence level, even small 
+yield reductions translate to significant food insecurity.
+
+This analysis is a data-driven contribution to understanding that challenge — 
+and a call for evidence-based agricultural policy in Eswatini.
 
 ## 💡 Recommendations
 - Invest in **irrigation infrastructure** to reduce rain-fed dependency
@@ -116,10 +173,37 @@ interactive visualizations to uncover meaningful patterns and forecast future yi
 ## 👤 Author
 **Your Name**
 - 📧 mlandvothwala@gmail.com
-- 💼 [LinkedIn](https://linkedin.com/in/Mlandvo Thwala)
+- 💼 [LinkedIn](https://linkedin.com/in/mlandvo-inshiva-thwala)
 - 🐙 [GitHub](https://github.com/iNshiva)
 
----
+## 🚀 How to Run This Project
+
+### Prerequisites
+- Python 3.8+
+- Git
+
+### Steps
+1. Clone the repository:
+```bash
+git clone https://github.com/iNshiva/maize-yield-climate-eswatini.git
+```
+
+2. Navigate to the project folder:
+```bash
+cd maize-yield-climate-eswatini
+```
+
+3. Install required libraries:
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the analysis:
+```bash
+python hello.py
+```
+
+5. Open the interactive dashboard:
 
 ## 📜 License
 This project is licensed under the MIT License.
