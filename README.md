@@ -5,8 +5,8 @@
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)
 
 ## 📌 Project Overview
-This project investigates how climate change variables — temperature, rainfall, 
-and carbon emissions — have affected maize yield in Eswatini over a 30-year period 
+This project investigates how climate change variables  temperature, rainfall, 
+and carbon emissions  have affected maize yield in Eswatini over a 30-year period 
 (1993–2023). The analysis combines statistical methods, machine learning, and 
 interactive visualizations to uncover meaningful patterns and forecast future yield trends.
 
